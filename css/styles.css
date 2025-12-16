@@ -20,9 +20,20 @@ a:focus {
 
 li {
     list-style: none;
+    color: inherit;
+    font: inherit;
+}
+
+.team-list-item {
     margin-bottom: 16px;
     font: 400 16px / 1.5 "Roboto", sans-serif;
-    color: #2E2F42;
+    color: var(--slate);
+}
+
+.portfolio-list-item {
+    margin-bottom: 24px;
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    color: var(--slate);
 }
 
 .header-logo {
@@ -115,14 +126,13 @@ body {
 
 .hero-btn {
     background-color: #4d5ae5;
-    /* фон */
     color: #fff;
-    /* текст */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -197,7 +207,6 @@ body {
 .footer {
     background-color: var(--navy-blue);
     color: var(--cloud);
-    height: 200px;
     text-align: left;
 }
 
